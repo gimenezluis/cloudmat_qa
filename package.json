@@ -1,8 +1,13 @@
 {
-  "devDependencies": {
-    "@cucumber/cucumber": "^11.3.0",
-    "@playwright/test": "^1.52.0",
-    "expect": "^30.0.0-beta.3",
-    "playwright": "^1.52.0"
+  "name": "cloudmat_qa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^9.x.x",
+    "playwright": "^1.x.x"
   }
 }
