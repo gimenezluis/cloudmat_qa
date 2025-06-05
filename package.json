@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "expect": "^30.0.0-beta.3",
+    "playwright": "^1.52.0"
+  }
+}
