@@ -13,7 +13,7 @@ When('eu tento enviar o formulário sem preencher os campos', async function () 
 
 Then('devo ver mensagens de validação', async function () {
   const mensagem = await this.inputForm.mensagensDeErroVisiveis();
-  expect(mensagem).toContain('Preencha este campo');
+  expect(mensagem).toContain('Please fill out this field.');
 });
 
 When('eu preencho todos os campos obrigatórios corretamente', async function () {
