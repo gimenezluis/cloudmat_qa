@@ -1,13 +1,18 @@
 {
   "name": "cloudmat_qa",
   "version": "1.0.0",
-  "description": "",
+  "description": "Desafio Quality Assurance",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gimenezluis/automacao-winnin-qa.git"
+  },
   "scripts": {
-    "test": "cucumber-js"
+    "test": "npx cucumber-js"
   },
   "dependencies": {
-    "@cucumber/cucumber": "^9.x.x",
-    "playwright": "^1.x.x"
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.52.0",
+    "playwright": "^1.52.0"
   }
 }
